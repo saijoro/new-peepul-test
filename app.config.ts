@@ -8,6 +8,9 @@ export default defineConfig({
       tsConfigPaths({
         projects: ["./tsconfig.json"],
       }),
-    ],
-  },
+    ],	
+	},
+	  server: {
+     preset: 'vercel',
+  }
 });
