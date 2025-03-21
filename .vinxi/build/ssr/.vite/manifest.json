@@ -1,0 +1,27 @@
+{
+  "_ssr-3-fl74EU.js": {
+    "file": "assets/ssr-3-fl74EU.js",
+    "name": "ssr",
+    "dynamicImports": [
+      "app/routes/index.tsx?tsr-split=component"
+    ]
+  },
+  "app/routes/index.tsx?tsr-split=component": {
+    "file": "assets/index-8nPZR17o.js",
+    "name": "index",
+    "src": "app/routes/index.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_ssr-3-fl74EU.js"
+    ]
+  },
+  "virtual:$vinxi/handler/ssr": {
+    "file": "ssr.js",
+    "name": "ssr",
+    "src": "virtual:$vinxi/handler/ssr",
+    "isEntry": true,
+    "imports": [
+      "_ssr-3-fl74EU.js"
+    ]
+  }
+}
