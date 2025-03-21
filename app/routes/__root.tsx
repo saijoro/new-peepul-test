@@ -8,7 +8,6 @@ import {
   useRouterState,
 } from "@tanstack/react-router";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { ErrorBoundary } from "react-error-boundary";
 import "../styles/global.css";
 
 // Create a single QueryClient instance

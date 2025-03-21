@@ -1,18 +1,179 @@
 {
-  "_ssr-3-fl74EU.js": {
-    "file": "assets/ssr-3-fl74EU.js",
-    "name": "ssr",
-    "dynamicImports": [
-      "app/routes/index.tsx?tsr-split=component"
+  "_OpenEye-COx0uHVp.js": {
+    "file": "assets/OpenEye-COx0uHVp.js",
+    "name": "OpenEye"
+  },
+  "_SearchFilter-D6DjtXOM.js": {
+    "file": "assets/SearchFilter-D6DjtXOM.js",
+    "name": "SearchFilter",
+    "imports": [
+      "_fetch-BiUOK24f.js",
+      "_ssr-Bi2Ael1v.js"
     ]
   },
+  "_avatar-Dhl8jLEy.js": {
+    "file": "assets/avatar-Dhl8jLEy.js",
+    "name": "avatar",
+    "imports": [
+      "_ssr-Bi2Ael1v.js"
+    ]
+  },
+  "_button-Dm6e9eHg.js": {
+    "file": "assets/button-Dm6e9eHg.js",
+    "name": "button",
+    "imports": [
+      "_ssr-Bi2Ael1v.js"
+    ]
+  },
+  "_deviceses-DLdDnwk-.js": {
+    "file": "assets/deviceses-DLdDnwk-.js",
+    "name": "deviceses",
+    "imports": [
+      "_fetch-BiUOK24f.js"
+    ]
+  },
+  "_fetch-BiUOK24f.js": {
+    "file": "assets/fetch-BiUOK24f.js",
+    "name": "fetch"
+  },
+  "_sheet-CmrNcgjG.js": {
+    "file": "assets/sheet-CmrNcgjG.js",
+    "name": "sheet",
+    "imports": [
+      "_ssr-Bi2Ael1v.js"
+    ]
+  },
+  "_ssr-Bi2Ael1v.js": {
+    "file": "assets/ssr-Bi2Ael1v.js",
+    "name": "ssr",
+    "dynamicImports": [
+      "app/routes/_layout.tsx?tsr-split=component",
+      "app/routes/_auth.tsx?tsr-split=component",
+      "app/routes/index.tsx?tsr-split=component",
+      "app/routes/_layout/userdashboard.tsx?tsr-split=component",
+      "app/routes/_layout/dashboard.tsx?tsr-split=component",
+      "app/routes/_layout/_users.tsx?tsr-split=component",
+      "app/routes/_layout/_devices.tsx?tsr-split=component",
+      "app/routes/_layout/_devices/devices/index.tsx?tsr-split=component",
+      "app/routes/_layout/_users/users/$users_id/_devices.tsx?tsr-split=component",
+      "app/routes/_layout/_devices/devices/$device_id/starterbox.tsx?tsr-split=component",
+      "app/routes/_layout/_users/users/$users_id/ponds/$ponds_id/index.tsx?tsr-split=component",
+      "app/routes/_layout/_devices/devices/$device_id/motors/$motor_id/index.tsx?tsr-split=component"
+    ],
+    "css": [
+      "assets/ssr-DDTRa0Ap.css"
+    ]
+  },
+  "_ssr-DDTRa0Ap.css": {
+    "file": "assets/ssr-DDTRa0Ap.css",
+    "src": "_ssr-DDTRa0Ap.css"
+  },
+  "app/routes/_auth.tsx?tsr-split=component": {
+    "file": "assets/_auth-C2Z6N0Kw.js",
+    "name": "_auth",
+    "src": "app/routes/_auth.tsx?tsr-split=component",
+    "isDynamicEntry": true
+  },
+  "app/routes/_layout.tsx?tsr-split=component": {
+    "file": "assets/_layout-BY2J3ej3.js",
+    "name": "_layout",
+    "src": "app/routes/_layout.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_avatar-Dhl8jLEy.js",
+      "_ssr-Bi2Ael1v.js"
+    ]
+  },
+  "app/routes/_layout/_devices.tsx?tsr-split=component": {
+    "file": "assets/_devices-D3oc0WC6.js",
+    "name": "_devices",
+    "src": "app/routes/_layout/_devices.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_deviceses-DLdDnwk-.js",
+      "_OpenEye-COx0uHVp.js",
+      "_button-Dm6e9eHg.js",
+      "_fetch-BiUOK24f.js",
+      "_ssr-Bi2Ael1v.js"
+    ]
+  },
+  "app/routes/_layout/_devices/devices/$device_id/motors/$motor_id/index.tsx?tsr-split=component": {
+    "file": "assets/index-Db75m1Ck.js",
+    "name": "index",
+    "src": "app/routes/_layout/_devices/devices/$device_id/motors/$motor_id/index.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_sheet-CmrNcgjG.js",
+      "_deviceses-DLdDnwk-.js",
+      "_ssr-Bi2Ael1v.js",
+      "_fetch-BiUOK24f.js"
+    ]
+  },
+  "app/routes/_layout/_devices/devices/$device_id/starterbox.tsx?tsr-split=component": {
+    "file": "assets/starterbox-CjKcELV1.js",
+    "name": "starterbox",
+    "src": "app/routes/_layout/_devices/devices/$device_id/starterbox.tsx?tsr-split=component",
+    "isDynamicEntry": true
+  },
+  "app/routes/_layout/_devices/devices/index.tsx?tsr-split=component": {
+    "file": "assets/index-Cw33MQid.js",
+    "name": "index",
+    "src": "app/routes/_layout/_devices/devices/index.tsx?tsr-split=component",
+    "isDynamicEntry": true
+  },
+  "app/routes/_layout/_users.tsx?tsr-split=component": {
+    "file": "assets/_users-6foa5jD7.js",
+    "name": "_users",
+    "src": "app/routes/_layout/_users.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_ssr-Bi2Ael1v.js",
+      "_avatar-Dhl8jLEy.js",
+      "_SearchFilter-D6DjtXOM.js",
+      "_fetch-BiUOK24f.js"
+    ]
+  },
+  "app/routes/_layout/_users/users/$users_id/_devices.tsx?tsr-split=component": {
+    "file": "assets/_devices-Dn-6oNhR.js",
+    "name": "_devices",
+    "src": "app/routes/_layout/_users/users/$users_id/_devices.tsx?tsr-split=component",
+    "isDynamicEntry": true
+  },
+  "app/routes/_layout/_users/users/$users_id/ponds/$ponds_id/index.tsx?tsr-split=component": {
+    "file": "assets/index-BoDTK908.js",
+    "name": "index",
+    "src": "app/routes/_layout/_users/users/$users_id/ponds/$ponds_id/index.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_sheet-CmrNcgjG.js",
+      "_SearchFilter-D6DjtXOM.js",
+      "_button-Dm6e9eHg.js",
+      "_ssr-Bi2Ael1v.js",
+      "_fetch-BiUOK24f.js"
+    ]
+  },
+  "app/routes/_layout/dashboard.tsx?tsr-split=component": {
+    "file": "assets/dashboard-D6puiCqO.js",
+    "name": "dashboard",
+    "src": "app/routes/_layout/dashboard.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_fetch-BiUOK24f.js"
+    ]
+  },
+  "app/routes/_layout/userdashboard.tsx?tsr-split=component": {
+    "file": "assets/userdashboard-DFjoMWJd.js",
+    "name": "userdashboard",
+    "src": "app/routes/_layout/userdashboard.tsx?tsr-split=component",
+    "isDynamicEntry": true
+  },
   "app/routes/index.tsx?tsr-split=component": {
-    "file": "assets/index-8nPZR17o.js",
+    "file": "assets/index-QhdeU0-H.js",
     "name": "index",
     "src": "app/routes/index.tsx?tsr-split=component",
     "isDynamicEntry": true,
     "imports": [
-      "_ssr-3-fl74EU.js"
+      "_OpenEye-COx0uHVp.js"
     ]
   },
   "virtual:$vinxi/handler/ssr": {
@@ -21,7 +182,7 @@
     "src": "virtual:$vinxi/handler/ssr",
     "isEntry": true,
     "imports": [
-      "_ssr-3-fl74EU.js"
+      "_ssr-Bi2Ael1v.js"
     ]
   }
 }

@@ -1,5 +1,9 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./app/*"]
+    },
     "jsx": "react-jsx",
     "moduleResolution": "Bundler",
     "module": "ESNext",
