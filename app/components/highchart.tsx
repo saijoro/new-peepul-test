@@ -5,7 +5,7 @@ import { getVoltageGraphAPI } from "@/lib/services/deviceses";
 import { useQuery } from "@tanstack/react-query";
 import { useParams } from "@tanstack/react-router";
 import dayjs from "dayjs";
-import { Loader } from "lucide-react";
+// import { Loader } from "lucide-react";
 
 
 type IHighCharts = {
@@ -117,7 +117,6 @@ const HighCharts: FC<IHighCharts> = ({ motorData, paramater }) => {
 
   return (
     <div className="relative">
-
       <figure className="highcharts-figure rounded-xl w-full overflow-hidden bg-white border border-gray-200">
         <div className="flex items-center justify-between px-4 py-2">
           <div className="flex items-center gap-2">
@@ -135,7 +134,8 @@ const HighCharts: FC<IHighCharts> = ({ motorData, paramater }) => {
       </figure>
       {isLoading && (
         <div className="absolute top-1/2 left-1/2">
-          <Loader />
+          Loading....
+          {/* <Loader /> */}
         </div>
       )}
     </div>

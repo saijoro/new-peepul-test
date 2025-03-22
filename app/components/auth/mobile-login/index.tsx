@@ -1,7 +1,7 @@
 import { createFileRoute, useNavigate, useParams } from "@tanstack/react-router";
 import { useForm } from "react-hook-form";
 import { useMutation } from "@tanstack/react-query";
-import { Loader2 } from "lucide-react";
+// import { Loader2 } from "lucide-react";
 import { toast, Toaster } from "sonner";
 import { EyeSvg } from "@/components/svg/EyeSvg";
 import { useState } from "react";
@@ -170,7 +170,7 @@ export function LoginPage() {
                 >
                   {isPendingLogin ? (
                     <>
-                      <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+                      {/* <Loader2 className="mr-2 h-4 w-4 animate-spin" /> */}
                       Logging in...
                     </>
                   ) : (

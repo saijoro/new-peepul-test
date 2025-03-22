@@ -1,6 +1,6 @@
 import { createFileRoute, useNavigate } from "@tanstack/react-router";
 import { useState, useEffect } from "react";
-import { Phone } from "lucide-react";
+// import { Phone } from "lucide-react";
 import {
   InputOTP,
   InputOTPGroup,
@@ -190,7 +190,7 @@ export function PhoneOTP() {
                 Enter the OTP sent to your mobile number
               </div>
               <div className="text-gray-500 text-xs flex items-center gap-2">
-                <Phone size={14} />
+                {/* <Phone size={14} /> */}
                 <span>{maskedPhone}</span>
                 <span
                   className="cursor-pointer"
@@ -235,8 +235,9 @@ export function PhoneOTP() {
                 Didn’t receive OTP?
               </div>
               <div
-                className={`cursor-pointer ${canResend && !isResending ? "text-[#45A845]" : "text-gray-400"
-                  }`}
+                className={`cursor-pointer ${
+                  canResend && !isResending ? "text-[#45A845]" : "text-gray-400"
+                }`}
                 onClick={handleResend}
               >
                 {isResending
@@ -251,10 +252,11 @@ export function PhoneOTP() {
             <button
               onClick={handleVerify}
               disabled={isVerifying || otp.length !== 4}
-              className={`w-[75%] text-white rounded-full bg-[#45A845] p-2 ${isVerifying || otp.length !== 4
+              className={`w-[75%] text-white rounded-full bg-[#45A845] p-2 ${
+                isVerifying || otp.length !== 4
                   ? "opacity-50 cursor-not-allowed"
                   : "cursor-pointer"
-                }`}
+              }`}
             >
               {isVerifying ? "Verifying..." : "Verify"}
             </button>

@@ -11,7 +11,7 @@ export default defineConfig({
       react(),
     ],
     optimizeDeps: {
-      exclude: ["lucide-react"], // Ensure it’s not unnecessarily pre-bundled
+      exclude: [], // Ensure it’s not unnecessarily pre-bundled
     },
     build: {
       rollupOptions: {
