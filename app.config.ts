@@ -6,11 +6,11 @@ export default defineConfig({
   vite: {
     plugins: [
       tsConfigPaths({
-        projects: ["./tsconfig.json"],
+        projects: ["tsconfig.json"],
       }),
-    ],	
-	},
-	  server: {
-     preset: 'vercel',
-  }
+    ],
+  },
+  server: {
+    preset: "vercel",
+  },
 });
